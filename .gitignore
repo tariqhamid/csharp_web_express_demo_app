@@ -1,0 +1,10 @@
+# NuGet Packages Directory
+packages/*
+
+# Build Folders
+bin/
+obj/
+
+# VS 2017
+/**/.vs
+

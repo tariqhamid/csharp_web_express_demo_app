@@ -68,7 +68,7 @@ namespace CSharpWebApp.app.ui.widgets.app
         void OnMyNewButton()
         {
             var win = new Window();
-            win.Caption = "MY NEW BUTTON WINDOW";
+            win.Caption = "MY NEW BUTTON WINDOW2";
         }
 
         void OnBrowseClients()
