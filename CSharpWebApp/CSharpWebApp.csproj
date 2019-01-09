@@ -121,7 +121,7 @@
     <Error Condition="!Exists('..\packages\Bridge.Min.17.6.0\build\Bridge.Min.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Bridge.Min.17.6.0\build\Bridge.Min.targets'))" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>cp "$(TargetDir)bridge/*.js" "$(SolutionDir)/Server/js"
+    <PostBuildEvent>copy "$(TargetDir)bridge\*.js" "$(SolutionDir)\Server\js"
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -27,7 +27,7 @@ namespace CSharpWebApp.app.api
             Xhr xhr = new Xhr
             {
                 Method = "GET",
-                Url = string.Format("/api/{0}", path)
+                Url = string.Format("/data/{0}.json", path)
             };
             xhr.AddListener("success", () => { OnSuccess(xhr, fn); });
             xhr.Send();
