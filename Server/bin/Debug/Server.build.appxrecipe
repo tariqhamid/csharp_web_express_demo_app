@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-BHA42H4</Machine>
+    <WindowsUser>peter</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>86ce070d-b743-4696-9240-e63bfe4a5afe</PackageIdentityName>
+    <PackageIdentityPublisher>CN=peter</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\bin\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\images\tiles.png">
+      <PackagePath>images\tiles.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\bridge.console.js">
+      <PackagePath>js\bridge.console.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\bridge.js">
+      <PackagePath>js\bridge.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\bridge.meta.js">
+      <PackagePath>js\bridge.meta.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\CSharpWebApp.js">
+      <PackagePath>js\CSharpWebApp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\CSharpWebApp.meta.js">
+      <PackagePath>js\CSharpWebApp.meta.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\CSharpWebLib.js">
+      <PackagePath>js\CSharpWebLib.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\js\CSharpWebLib.meta.js">
+      <PackagePath>js\CSharpWebLib.meta.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\source\repos\github\csharp_web_express_demo_app\Server\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
