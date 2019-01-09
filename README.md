@@ -35,3 +35,12 @@ Windows 10 Build 1809 includes a new widget called HtmlView which is based upon 
 
 This web application can also be run within an HtmlView widget in either WPF or WinForms and it can share data with the host desktop application.
 
+
+## For more information
+
+Forum http://csharpwebexpress.freeforums.net/
+
+Blog https://csharpwebexpress.quora.com/
+
+Reddit https://www.reddit.com/r/csharp
+
